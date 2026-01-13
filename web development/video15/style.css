@@ -1,0 +1,60 @@
+/* Class Selector*/
+.hello {
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    background-color: red;
+}
+
+/* id Selector*/
+#hi {
+    color: green;
+    font-size: 56px;
+    font-style: italic;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*universal Selector*/
+* {
+    color: azure;
+}
+
+/* Child Selector*/
+div>p {
+    color: green;
+}
+
+/*child Selector is applied when there is a direct Chilld for the tab or element*/
+
+/* Group Selector*/
+h1,
+p {
+    font-variant: inherit;
+}
+
+/*element Selector*/
+p {
+    column-gap: normal;
+}
+
+/*pseudo Selector*/
+
+/*once we visit the link then it turn its color into greem*/
+a:visited {
+    color: green;
+}
+
+/*when we put or get the cursor on link then background color will reflect to blue*/
+a:hover {
+    background-color: blue;
+}
+
+/*if link is not visited then the color will set to red*/
+a:link {
+    color: red;
+}
+
+a:active {
+    color: aqua;
+}
