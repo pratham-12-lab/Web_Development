@@ -1,0 +1,15 @@
+.Box1 {
+    width:400px;/* define the width of Model*/
+    margin:200px;/*Specified outside the element that seperate it from other element*/
+    padding:150px;/*Specified between content and border og an element*/
+    border:5px solid black;/*Specified between content and padding which provide the border*/
+    text-align: center;
+    background-color: antiquewhite;
+    box-sizing: content-box;
+    margin: collapse 35px;/* when we specifies the values for margin for two element if they are overlapping then it use max value*/
+}
+
+/*between the padding and border the content will be specified which include some text*/
+/*To Calculate the Total Width:width + right border + left border + right padding + left padding + right Margin + leftt Margin
+
+ to Calculate the Totl Height:height +  Top border +  Bottom Border + Top padding + bottom padding + Top margin + Bottom Margin*/

@@ -1,4 +1,4 @@
-/* Class Selector*/
+/* Class Selector*/ /* for class Selector we can have Mutiple Class Name */
 .hello {
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
@@ -6,7 +6,7 @@
     background-color: red;
 }
 
-/* id Selector*/
+/* id Selector*/ /* but for id Selector We Cannot have Multiple id*/
 #hi {
     color: green;
     font-size: 56px;
