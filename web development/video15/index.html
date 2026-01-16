@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             /* the specificity value for this is 1*/
+            h1{
+                color:red !important;/* if we Apply Important to Any Tag that style will be applied*/
+            }
+
+            .class{
+                background-color: aqua;
+            }
+
+             /* the specificity value for this is 10*/
+            .hey{
+                color:blue; /*it is applied because of positionig */
+            }
+            
+            /* the specificity value for this is 100*/
+            #hel{
+                    color:green;
+            }/* for header tag the Green color is applied because of Specificity */
+
+             /* the specificity value for this is 10*/
+            [data-x=a]{
+                color: green;
+            }
+    </style>
+</head>
+<body>
+    <div class = 'content'>
+        <p>Hello World</p>
+    </div>
+
+    <p class = "hey" >Hello i am From India</p>
+
+    <h1 id = "hel"> Hello from Mundya</h>
+
+    <h1 data-x="a">
+        Hello
+    </h1> 
+    
+</body>
+</html>
