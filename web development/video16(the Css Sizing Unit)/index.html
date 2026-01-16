@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .class {
+            font-size: 2rem;
+            /*REM where R stands for Root where the size of font will increase based on root element by Multiplying it*/
+            border: 2px solid black;
+            margin: auto;
+            /*The Border Come at The Center */
+            width: 80vw;
+            /*Vw Means View Port Width Which Dervies The Computer Width in the Code the 80vh Means 80 percent of the width will acquire*/
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .container {
+            box-sizing: border-box;
+            font-size: 2em;
+            border: 2px solid black;
+            margin: 25px auto;
+            /*The 25px auto value dervies the gap of 25px from one element to another and placing at center */
+            width: 80vw;
+            height: 50vh;
+        }
+
+        /*the Vmin is Same as VH 
+        where in phone VMIN is width
+        but in Computer VMIN is height*/
+
+        .mycont2 {
+            font-size: 25px;
+            border: 2px solid black;
+            margin: 25px auto;
+            min-height: 20vh;
+            max-width: 80vw;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="class">
+        <p>Hello World</p>
+    </div>
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, assumenda. Earum est temporibus ipsa
+            adipisci reprehenderit quas, rem quos beatae molestias at odit in, veritatis sequi quae voluptas doloremque
+            iusto?</p>
+    </div>
+
+    <div class="mycont2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, assumenda. Earum est temporibus ipsa
+            adipisci reprehenderit quas, rem quos beatae molestias at odit in, veritatis sequi quae voluptas doloremque
+            iusto?</p>
+    </div>
+</body>
+
+</html>

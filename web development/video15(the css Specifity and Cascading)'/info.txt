@@ -1,0 +1,13 @@
+The order of specifity:
+    inline style > Id Selector > Class Selector > Element Selector > universal Selector
+
+while Origin is used when the Css styling is not Applied and the browser will Apply the Styling Automatically called User Agent style
+
+To Calculate the specifity:
+    universal Selector:0
+
+    Class Selector , Attribute Selector and Pseudo Selector : 10
+
+    id Selector:100
+
+    inline Style:1000
