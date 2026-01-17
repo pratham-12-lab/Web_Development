@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .Box {
+            border: 2px Solid Black;
+            display: inline-block;
+            /*the  inline block is used to set the Block elemnt into inline and block is used when we want correct margin and padding are applied*/
+            margin: 25px;
+            padding: 25px;
+        }
+
+        .Box1 {
+            /* display:none ; it is used when we dont need that box*/
+            /*visibility: hidden; the Visibility is applied when it derives that when we apply this propert the Box will Disapper But it's Spacing will Remain Same*/
+            display: inline-flex;
+            justify-content: center;
+        }
+
+        .container {
+            border: 2px Solid Black;
+            display: inline-block;
+            /*the  inline block is used to set the Block elemnt into inline and block is used when we want correct margin and padding are applied*/
+            margin: 25px;
+            padding: 25px;
+            /* display:none ; it is used when we dont need that box*/
+            /*visibility: hidden; the Visibility is applied when it derives that when we apply this propert the Box will Disapper But it's Spacing will Remain Same*/
+            display: inline-flex;
+            /*the inline flex is used to make the Box in Center and also if there is two Box then It will Make it in One Line*/
+            justify-content: center;
+            /*To Make the Box in Center*/
+            /*display: grid;*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Box Box1">
+        <p>Hello World</p>
+    </div>
+
+    <div class="container">
+        <p>I am From America</p>
+    </div>
+</body>
+
+</html>
