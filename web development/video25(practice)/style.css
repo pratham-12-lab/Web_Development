@@ -1,0 +1,33 @@
+:root{
+    --color:red;
+    --seccolor:green;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+    gap: 28px;
+    list-style-type: none;
+    background-color: blue;
+}
+
+ul li{
+    padding: 23px;
+    border: 2px solid black;
+}
+
+ul li:first-child{
+    background-color: aqua;
+}
+
+ul li{
+    background-color: green;
+}
+
+.church{
+     background-color: red;
+}
