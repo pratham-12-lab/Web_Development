@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header */
+        header nav {
+            background-color: pink;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        /* Main container */
+        .container {
+            background-color: green;
+            margin: 12px 24px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Boxes */
+        .box,
+        .box2 {
+            height: 70vh;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 20px;
+        }
+
+        .box {
+            background-color: palegoldenrod;
+            width: 45%;
+        }
+
+        .box2 {
+            background-color: rgb(239, 221, 24);
+            width: 50%;
+        }
+
+        /* Text section */
+        .text-box {
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            font-size: 22px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: black;
+            color: white;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            My Website Navigation
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="box">Box 1</div>
+            <div class="box2">Box 2</div>
+        </div>
+
+        <div class="text-box">
+            Welcome to Jungle Part 2 🌴
+        </div>
+    </main>
+
+    <footer>
+        © 2026 All Rights Reserved
+    </footer>
+
+</body>
+
+</html>
