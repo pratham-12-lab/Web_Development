@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1:first-child {
+            background-color: aqua;
+            /* Select the first child */
+        }
+
+        .box1::first-line {
+            background-color: red;
+            /* Highlight only the first line */
+        }
+
+        .boxes * {
+            border: 2px solid black;
+        }
+
+        [data-color="primary"] {
+            margin-bottom: 2px;
+            /* Fixed syntax */
+            padding: 30px;
+            text-align: center;
+        }
+
+        .boxes div:nth-child(even) {
+            background-color: green;
+            /* Even children inside .boxes */
+        }
+
+        .boxes::after{
+            content:"Hello";
+        }
+
+         .boxes::before{
+            content:"Hello1";
+        }
+
+        .box::first-letter{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit aut qui accusamus facilis odio ut, quod
+            molestiae alias dolor nihil dolores enim tempora explicabo, iusto porro voluptatem quisquam totam? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Illo sequi minus reiciendis sapiente atque quia deserunt
+            inventore id vitae eveniet in incidunt, accusamus et quo rem, voluptatem delectus ipsum sit.
+        </div>
+        <div class="box2">Hello World 2</div>
+        <div class="box3">Hello World 3</div>
+        <div class="box4" data-color="primary">Hello Wolrd 4</div>
+
+
+    </div>
+</body>
+
+</html>
